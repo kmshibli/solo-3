@@ -1,0 +1,77 @@
+.Main-body{
+    background: #23252C;
+    color: white;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Second-body{
+    width: 317px;
+    background-color: #1a1b2a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 20px 0px;
+}
+
+/* This part is for header */
+.Header img{
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 0px 0px 0px;
+}
+
+/* This part is for main content */
+.Main-content{
+    padding: 10px;
+}
+
+.Main-content-div{
+    padding: 0px 20px;
+}
+
+.Main-content .Button-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Button-div button {
+    width: 120px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.Content-body{
+    text-align: left;
+}
+
+
+/* Footer part goes here */
+.Footer {
+    font-size: 35px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Icon-div{
+    width: 60%;
+    margin: 10px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
